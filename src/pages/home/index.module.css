@@ -1,0 +1,18 @@
+.wrapper {
+  padding: 2rem 0;
+}
+@media (max-width: 375px) {
+  .wrapper {
+    padding: 2rem 0.5rem;
+  }
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.list li + li {
+  margin-top: 5rem;
+}
+.list li {
+}
